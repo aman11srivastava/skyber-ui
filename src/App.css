@@ -1,38 +1,63 @@
-.App {
-  text-align: center;
+.tabs-btn {
+    border: none;
+    padding: 5px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.tabs-btn .primary-color {
+    background-color: greenyellow;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.tabs-btn .secondary-color {
+    background-color: darkgrey;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.text-gray {
+    color: darkgrey;
 }
 
-.App-link {
-  color: #61dafb;
+.font-weight-bold{
+    font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.text-light-gray{
+    color: lightgrey;
+}
+
+.text-green{
+    color: #04bf6b;
+}
+
+.font-size-23px{
+    font-size: 23px;
+}
+
+.font-size-12px{
+    font-size: 12px;
+}
+
+.view-order-btn{
+    color: green;
+    border-color: lawngreen;
+    background-color: #d3f2e4;
+    border-radius: 8px;
+    box-shadow: 1px 3px 4px #888888;
+}
+
+.view-order-btn:hover{
+    color: white;
+    border-color: #04bf6b;
+    background-color: #04bf6b;
+    border-radius: 8px;
+}
+
+.text-green-light{
+    color: #04bf6b;
+}
+
+.order-img{
+    border-radius: 14px;
+}
+
+.order-card{
+    border-radius: 10px;
 }

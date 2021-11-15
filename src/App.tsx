@@ -1,10 +1,15 @@
 import React from 'react';
 import './App.css';
+import Header from "./components/Header";
+import OrderStatus from "./components/OrderStatus";
+import GridSection from "./components/GridSection";
 
 function App() {
   return (
       <div>
-          Aman
+          <Header/>
+          <OrderStatus/>
+          <GridSection/>
       </div>
   );
 }
