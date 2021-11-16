@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {TABS, Tabs_Type} from "../utls/utils";
+import {TABS, Tabs_Type} from "../utils/utils";
 import {ButtonItem} from "./ButtonItem";
 import {Container} from "react-bootstrap";
 

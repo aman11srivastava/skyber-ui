@@ -1,5 +1,5 @@
 import React from "react";
-import {Order_Type, OrderDetails} from "../utls/utils";
+import {Order_Type, OrderDetails} from "../utils/utils";
 import GridItem from "./GridItem";
 import {Container, Row} from "react-bootstrap";
 

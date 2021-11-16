@@ -1,5 +1,5 @@
 import React from "react";
-import {Order_Type} from "../utls/utils";
+import {Order_Type} from "../utils/utils";
 import {Button, Col} from "react-bootstrap";
 
 export interface GridItemProps {
