@@ -8,35 +8,43 @@ export enum OrderStatus {
     REJECTED = "REJECTED",
 }
 
+export enum OrderStatusSmall {
+    ALL = "All orders",
+    DELIVERED = "Delivered",
+    PENDING = "Pending",
+    ACCEPTED = "Accepted",
+    REJECTED = "Rejected"
+}
+
 export const TABS: Tabs_Type[] = [
     {
         id: 1,
         name: OrderStatus.ALL,
-        displayName: 'All orders',
+        displayName: OrderStatusSmall.ALL,
         activeId: 1
     },
     {
         id: 2,
         name: OrderStatus.PENDING,
-        displayName: 'Pending',
+        displayName: OrderStatusSmall.PENDING,
         activeId: 2
     },
     {
         id: 3,
         name: OrderStatus.ACCEPTED,
-        displayName: 'Accepted',
+        displayName: OrderStatusSmall.ACCEPTED,
         activeId: 3
     },
     {
         id: 4,
         name: OrderStatus.DELIVERED,
-        displayName: 'Delivered',
+        displayName: OrderStatusSmall.DELIVERED,
         activeId: 4
     },
     {
         id: 5,
         name: OrderStatus.REJECTED,
-        displayName: 'Rejected',
+        displayName: OrderStatusSmall.REJECTED,
         activeId: 5
     },
 ]
@@ -55,7 +63,7 @@ export const OrderDetails: Order_Type[] = [
         orderContent: "Masala Dosa x 2, Sada Dosa x 1, Masala Dosa x 2, Cheese Butter Sada x 1, Maisur Masala Dosa x 1",
         orderTime: '08:00 PM',
         orderDate: '11/04/21',
-        orderStatus: OrderStatus.DELIVERED,
+        orderStatus: OrderStatusSmall.DELIVERED,
         price: 210,
         orderImage: dosa
     },
@@ -65,7 +73,7 @@ export const OrderDetails: Order_Type[] = [
         orderContent: "Masala Dosa x 2, Sada Dosa x 1, Masala Dosa x 2, Cheese Butter Sada x 1, Maisur Masala Dosa x 1",
         orderTime: '08:00 PM',
         orderDate: '11/04/21',
-        orderStatus: OrderStatus.DELIVERED,
+        orderStatus: OrderStatusSmall.DELIVERED,
         price: 210,
         orderImage: dosa
     },
@@ -75,7 +83,7 @@ export const OrderDetails: Order_Type[] = [
         orderContent: "Masala Dosa x 2, Sada Dosa x 1, Masala Dosa x 2, Cheese Butter Sada x 1, Maisur Masala Dosa x 1",
         orderTime: '08:00 PM',
         orderDate: '11/04/21',
-        orderStatus: OrderStatus.DELIVERED,
+        orderStatus: OrderStatusSmall.DELIVERED,
         price: 210,
         orderImage: dosa
     },
@@ -85,7 +93,7 @@ export const OrderDetails: Order_Type[] = [
         orderContent: "Masala Dosa x 2, Sada Dosa x 1, Masala Dosa x 2, Cheese Butter Sada x 1, Maisur Masala Dosa x 1",
         orderTime: '08:00 PM',
         orderDate: '11/04/21',
-        orderStatus: OrderStatus.DELIVERED,
+        orderStatus: OrderStatusSmall.DELIVERED,
         price: 210,
         orderImage: dosa
     },
@@ -95,7 +103,7 @@ export const OrderDetails: Order_Type[] = [
         orderContent: "Masala Dosa x 2, Sada Dosa x 1, Masala Dosa x 2, Cheese Butter Sada x 1, Maisur Masala Dosa x 1",
         orderTime: '08:00 PM',
         orderDate: '11/04/21',
-        orderStatus: OrderStatus.DELIVERED,
+        orderStatus: OrderStatusSmall.DELIVERED,
         price: 210,
         orderImage: dosa
     },
@@ -105,7 +113,7 @@ export const OrderDetails: Order_Type[] = [
         orderContent: "Masala Dosa x 2, Sada Dosa x 1, Masala Dosa x 2, Cheese Butter Sada x 1, Maisur Masala Dosa x 1",
         orderTime: '08:00 PM',
         orderDate: '11/04/21',
-        orderStatus: OrderStatus.DELIVERED,
+        orderStatus: OrderStatusSmall.DELIVERED,
         price: 210,
         orderImage: dosa
     }]

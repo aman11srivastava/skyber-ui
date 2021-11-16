@@ -19,7 +19,7 @@ export const GridItem = ({orderDetails}: GridItemProps) => {
                         </div>
                         <div>
                             <h4 className={"font-weight-bold mb-0 item"}>{item}</h4>
-                            <span className={"font-size-12px"}>{orderStatus}</span>
+                            <span className={"font-size-12px"}><span className={"pr-1 dot"}>&#9679;</span>{orderStatus}</span>
                         </div>
                     </div>
                 </div>
