@@ -18,18 +18,18 @@ export const GridItem = ({orderDetails}: GridItemProps) => {
                             <span>{orderDate} {orderTime}</span>
                         </div>
                         <div>
-                            <h4 className={"font-weight-bold mb-0"}>{item}</h4>
+                            <h4 className={"font-weight-bold mb-0 item"}>{item}</h4>
                             <span className={"font-size-12px"}>{orderStatus}</span>
                         </div>
                     </div>
                 </div>
-                <div className={"text-light-gray"}>{orderContent}</div>
+                <div className={"text-light-gray order-description pt-1"}>{orderContent}</div>
                 <div className={"d-flex justify-content-between"}>
                     <div className={"text-green font-size-23px font-weight-bold"}>
                         <i className="fa fa-inr"/> {price}/-
                     </div>
                     <div>
-                        <Button className={"view-order-btn"}>View Order</Button>
+                        <Button variant={""} className={"view-order-btn"}>View Order</Button>
                     </div>
                 </div>
             </div>

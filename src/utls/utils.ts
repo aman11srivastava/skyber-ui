@@ -52,7 +52,7 @@ export const OrderDetails: Order_Type[] = [
     {
         id: 1,
         item: 'Shiva Dosa',
-        orderContent: "Masala Dosa x 2, Sada Dosa x 1, Masala Dosa x 2, Cheese Butter Sada x 1",
+        orderContent: "Masala Dosa x 2, Sada Dosa x 1, Masala Dosa x 2, Cheese Butter Sada x 1, Maisur Masala Dosa x 1",
         orderTime: '08:00 PM',
         orderDate: '11/04/21',
         orderStatus: OrderStatus.DELIVERED,
@@ -62,7 +62,7 @@ export const OrderDetails: Order_Type[] = [
     {
         id: 2,
         item: 'Shiva Dosa',
-        orderContent: "Masala Dosa x 2, Sada Dosa x 1, Masala Dosa x 2, Cheese Butter Sada x 1",
+        orderContent: "Masala Dosa x 2, Sada Dosa x 1, Masala Dosa x 2, Cheese Butter Sada x 1, Maisur Masala Dosa x 1",
         orderTime: '08:00 PM',
         orderDate: '11/04/21',
         orderStatus: OrderStatus.DELIVERED,
@@ -72,7 +72,7 @@ export const OrderDetails: Order_Type[] = [
     {
         id: 3,
         item: 'Shiva Dosa',
-        orderContent: "Masala Dosa x 2, Sada Dosa x 1, Masala Dosa x 2, Cheese Butter Sada x 1",
+        orderContent: "Masala Dosa x 2, Sada Dosa x 1, Masala Dosa x 2, Cheese Butter Sada x 1, Maisur Masala Dosa x 1",
         orderTime: '08:00 PM',
         orderDate: '11/04/21',
         orderStatus: OrderStatus.DELIVERED,
@@ -82,7 +82,7 @@ export const OrderDetails: Order_Type[] = [
     {
         id: 4,
         item: 'Shiva Dosa',
-        orderContent: "Masala Dosa x 2, Sada Dosa x 1, Masala Dosa x 2, Cheese Butter Sada x 1",
+        orderContent: "Masala Dosa x 2, Sada Dosa x 1, Masala Dosa x 2, Cheese Butter Sada x 1, Maisur Masala Dosa x 1",
         orderTime: '08:00 PM',
         orderDate: '11/04/21',
         orderStatus: OrderStatus.DELIVERED,
@@ -92,7 +92,7 @@ export const OrderDetails: Order_Type[] = [
     {
         id: 5,
         item: 'Shiva Dosa',
-        orderContent: "Masala Dosa x 2, Sada Dosa x 1, Masala Dosa x 2, Cheese Butter Sada x 1",
+        orderContent: "Masala Dosa x 2, Sada Dosa x 1, Masala Dosa x 2, Cheese Butter Sada x 1, Maisur Masala Dosa x 1",
         orderTime: '08:00 PM',
         orderDate: '11/04/21',
         orderStatus: OrderStatus.DELIVERED,
@@ -102,7 +102,7 @@ export const OrderDetails: Order_Type[] = [
     {
         id: 6,
         item: 'Shiva Dosa',
-        orderContent: "Masala Dosa x 2, Sada Dosa x 1, Masala Dosa x 2, Cheese Butter Sada x 1",
+        orderContent: "Masala Dosa x 2, Sada Dosa x 1, Masala Dosa x 2, Cheese Butter Sada x 1, Maisur Masala Dosa x 1",
         orderTime: '08:00 PM',
         orderDate: '11/04/21',
         orderStatus: OrderStatus.DELIVERED,
